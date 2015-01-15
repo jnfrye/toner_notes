@@ -2,8 +2,11 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass article
+\textclass book
 \use_default_options true
+\begin_modules
+theorems-bytype
+\end_modules
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -25,6 +28,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -81,6 +85,37 @@ Department of Physics
 \end_inset
 
 University of Oregon
+\end_layout
+
+\begin_layout Chapter
+Systems of particles
+\end_layout
+
+\begin_layout Section
+The 
+\begin_inset Formula $N$
+\end_inset
+
+-body problem and conservation laws
+\end_layout
+
+\begin_layout Standard
+Consider a system of 
+\begin_inset Formula $N>2$
+\end_inset
+
+ particles with no constraints.
+ What conservation laws apply? In the most general case, the potential energy
+ could depend on each particle's location, such that
+\begin_inset Formula 
+\[
+V=V\left(\left\{ r_{\alpha}\right\} \right).
+\]
+
+\end_inset
+
+Our first assumption is that their mutual interactions are pairwise.
+ 
 \end_layout
 
 \end_body
